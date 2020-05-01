@@ -5,6 +5,9 @@ Docker container which runs the latest headless qBittorrent client with WebUI wh
 
 ![alt text][preview]
 
+## FORK
+This project is a fork to allow output connection for private tracker.
+
 ## Docker Features
 * Base: Ubuntu 18.04
 * Latest qBittorrent

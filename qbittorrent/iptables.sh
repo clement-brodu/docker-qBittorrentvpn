@@ -126,7 +126,8 @@ iptables -A INPUT -i lo -j ACCEPT
 ###
 
 # set policy to drop ipv4 for output
-iptables -P OUTPUT DROP
+# Disabled to allow seed on private tracker ->
+#iptables -P OUTPUT DROP
 
 # set policy to drop ipv6 for output
 ip6tables -P OUTPUT DROP 1>&- 2>&-
